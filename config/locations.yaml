@@ -1,0 +1,181 @@
+locations:
+
+  - id: kas_turkey
+    name: "Kaş"
+    country: Turkey
+    region: Antalya Province
+    type: coastal
+    coordinates:
+      lat: 36.2014
+      lon: 29.6394
+    nearest_airport: Dalaman (DLM)
+    price_inflection_year: 2019
+    peak_boom_year: 2022
+    boom_confirmed: true
+    price_data_source: "Sahibinden / local agent composite"
+    google_trends_query: "Kas Turkey"
+    reddit_keywords: ["kas turkey", "kaş", "kas antalya"]
+    airbnb_city_id: null  # small town — use region scrape
+    notes: "Organic community-driven boom, no major prestige media pre-boom"
+
+  - id: comporta_portugal
+    name: "Comporta"
+    country: Portugal
+    region: Alentejo
+    type: coastal
+    coordinates:
+      lat: 38.3868
+      lon: -8.7701
+    nearest_airport: Lisbon (LIS)
+    price_inflection_year: 2017
+    peak_boom_year: 2020
+    boom_confirmed: true
+    price_data_source: "INE Portugal / Idealista"
+    google_trends_query: "Comporta Portugal"
+    reddit_keywords: ["comporta", "comporta portugal"]
+    airbnb_city_id: null  # use Inside Airbnb Portugal snapshot
+    notes: "NYT 52 Places 2017 is key dateable signal. Celebrity narrative from 2014."
+
+  - id: kotor_montenegro
+    name: "Kotor"
+    country: Montenegro
+    region: Bay of Kotor
+    type: coastal
+    coordinates:
+      lat: 42.4247
+      lon: 18.7712
+    nearest_airport: Tivat (TIV)
+    price_inflection_year: 2018
+    peak_boom_year: 2022
+    boom_confirmed: true
+    price_data_source: "MONSTAT / local agent composite"
+    google_trends_query: "Kotor Montenegro"
+    reddit_keywords: ["kotor", "kotor montenegro", "bay of kotor"]
+    airbnb_city_id: null
+    notes: "Tivat LCC route expansion 2013-14 is key infrastructure signal. UNESCO T5."
+
+  - id: tbilisi_georgia
+    name: "Tbilisi"
+    country: Georgia
+    region: Tbilisi
+    type: urban
+    coordinates:
+      lat: 41.6938
+      lon: 44.8015
+    nearest_airport: Tbilisi (TBS)
+    price_inflection_year: 2019
+    peak_boom_year: 2022
+    boom_confirmed: true
+    price_data_source: "Geostat / TBC Capital Residential Market Watch"
+    google_trends_query: "Tbilisi"
+    reddit_keywords: ["tbilisi", "georgia country", "tbilisi georgia"]
+    airbnb_city_id: "tbilisi"
+    notes: "Nomad List ~2015 is earliest strong signal. 2022 spike partly exogenous (Russian migration)."
+
+  - id: plovdiv_bulgaria
+    name: "Plovdiv"
+    country: Bulgaria
+    region: Plovdiv Province
+    type: urban
+    coordinates:
+      lat: 42.1354
+      lon: 24.7453
+    nearest_airport: Sofia (SOF)
+    price_inflection_year: 2018
+    peak_boom_year: 2021
+    boom_confirmed: true
+    price_data_source: "Bulgarian Properties / NSI Bulgaria"
+    google_trends_query: "Plovdiv"
+    reddit_keywords: ["plovdiv", "plovdiv bulgaria"]
+    airbnb_city_id: "plovdiv"
+    notes: "ECoC designation 2014 is 5-year lead signal. Steady boom not explosive."
+
+  - id: hvar_croatia
+    name: "Hvar"
+    country: Croatia
+    region: Split-Dalmatia County
+    type: coastal
+    coordinates:
+      lat: 43.1729
+      lon: 16.4412
+    nearest_airport: Split (SPU)
+    price_inflection_year: 2013
+    peak_boom_year: 2016
+    boom_confirmed: true
+    price_data_source: "Croatian Bureau of Statistics / Panorama Scouting"
+    google_trends_query: "Hvar Croatia"
+    reddit_keywords: ["hvar", "hvar croatia", "hvar island"]
+    airbnb_city_id: null
+    notes: "Earliest boom in dataset. Celebrity/Conde Nast signals 2010-12. Data thinner pre-2013."
+
+  - id: ericeira_portugal
+    name: "Ericeira"
+    country: Portugal
+    region: Lisbon District
+    type: coastal
+    coordinates:
+      lat: 38.9629
+      lon: -9.4172
+    nearest_airport: Lisbon (LIS)
+    price_inflection_year: 2019
+    peak_boom_year: 2022
+    boom_confirmed: true
+    price_data_source: "INE Portugal / Idealista"
+    google_trends_query: "Ericeira Portugal"
+    reddit_keywords: ["ericeira", "ericeira portugal", "ericeira surf"]
+    airbnb_city_id: null
+    notes: "World Surfing Reserve 2011 is T5 signal. Surf community → nomad community pipeline."
+
+  - id: tirana_albania
+    name: "Tirana"
+    country: Albania
+    region: Tirana County
+    type: urban
+    coordinates:
+      lat: 41.3275
+      lon: 19.8187
+    nearest_airport: Tirana (TIA)
+    price_inflection_year: 2021
+    peak_boom_year: 2023
+    boom_confirmed: true
+    price_data_source: "Bank of Albania / INSTAT"
+    google_trends_query: "Tirana Albania"
+    reddit_keywords: ["tirana", "tirana albania", "albania travel"]
+    airbnb_city_id: "tirana"
+    notes: "Most recent boom. EU accession candidacy is key policy signal. Good validation case."
+
+  - id: medellin_colombia
+    name: "Medellín"
+    country: Colombia
+    region: Antioquia
+    type: urban
+    coordinates:
+      lat: 6.2442
+      lon: -75.5812
+    nearest_airport: Medellín José María Córdova (MDE)
+    price_inflection_year: 2014
+    peak_boom_year: 2018
+    boom_confirmed: true
+    price_data_source: "La Lonja / DANE Colombia"
+    google_trends_query: "Medellin Colombia"
+    reddit_keywords: ["medellin", "medellín", "medellin colombia", "el poblado"]
+    airbnb_city_id: "medellin"
+    notes: "Narrative reframing signal 2013 (ULI Most Innovative City). Strong nomad Reddit signal."
+
+  - id: chiang_mai_thailand
+    name: "Chiang Mai"
+    country: Thailand
+    region: Chiang Mai Province
+    type: urban
+    coordinates:
+      lat: 18.7883
+      lon: 98.9853
+    nearest_airport: Chiang Mai (CNX)
+    price_inflection_year: 2013
+    peak_boom_year: 2016
+    boom_confirmed: true
+    price_data_source: "Thai Real Estate Association / local agent composite"
+    google_trends_query: "Chiang Mai"
+    reddit_keywords: ["chiang mai", "chiangmai", "chiang mai thailand"]
+    airbnb_city_id: "chiang-mai"
+    notes: "Lost in Thailand film Dec 2012 is unusual cultural signal. Canonical nomad destination."
