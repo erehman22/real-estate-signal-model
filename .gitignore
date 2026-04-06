@@ -1,3 +1,4 @@
+cat > .gitignore << 'EOF'
 # Python
 venv/
 __pycache__/
@@ -6,8 +7,9 @@ __pycache__/
 .env
 *.egg-info/
 
-# Data — raw data can be large, keep out of git
+# All generated data — never commit raw or processed data
 data/raw/
+data/processed/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
@@ -22,3 +24,4 @@ Thumbs.db
 # Secrets
 config/secrets.yaml
 *.key
+EOF
